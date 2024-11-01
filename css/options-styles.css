@@ -1,0 +1,248 @@
+h1.sp_options_heading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section.sp_options_setup {
+    margin-top: 35px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+section.sp_options_setup .sp_collapsable_guide {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1A2432;
+}
+
+section.sp_options_setup .guide_header,
+section.sp_options_setup .guide_content,
+section.sp_options_setup .guide_footer {
+    padding: 5px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+section.sp_options_setup .guide_header h3,
+section.sp_options_setup .guide_content h3,
+section.sp_options_setup .guide_content h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1A2432;
+}
+
+section.sp_options_setup .guide_content h4 {
+    font-weight: 600;
+}
+
+section.sp_options_setup .guide_header p.text-secondary,
+section.sp_options_setup .guide_content p.text-secondary {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #72777C;
+}
+
+section.sp_options_setup .sp_options_reg_buttons {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+section.sp_options_setup .sp_options_reg_buttons > div {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #72777C;
+}
+
+section.sp_options_setup .sp_options_reg_buttons a.btn_register {
+    display: block;
+    background: #0085BA;
+    border: 1px solid #006799;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 #006799;
+    border-radius: 3px;
+    padding: 5px 0;
+    width: 90px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: -1px 0 1px #006799, 0 1px 1px #006799, 1px 0 1px #006799, 0 -1px 1px #006799;
+}
+
+section.sp_options_setup .sp_options_reg_buttons a.btn_login {
+    display: block;
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 5px 0;
+    width: 90px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: #0073AA;
+}
+
+section.sp_options_setup div.guide_app_setup {
+    padding: 0 30px;
+}
+
+section.sp_options_setup div.guide_app_setup ul {
+    list-style-position: outside;
+    list-style-type: disc;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #72777C;
+}
+
+section.sp_options_setup .guide_footer .sp_form_app_uuid {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+section.sp_options_setup .guide_footer .sp_form_app_uuid > div {
+    margin-right: 25px;
+}
+
+section.sp_options_setup .guide_footer .sp_form_app_uuid p.submit {
+    margin: 0;
+    padding: 0;
+}
+
+section.sp_options_setup .guide_footer .sp_form_app_uuid input[type="submit"] {
+    display: block;
+    background: #0085BA;
+    border: 1px solid #006799;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 #006799;
+    border-radius: 3px;
+    width: 90px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: -1px 0 1px #006799, 0 1px 1px #006799, 1px 0 1px #006799, 0 -1px 1px #006799;
+}
+
+section.sp_options_setup .guide_footer form label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #23282D;
+}
+
+section.sp_options_setup .guide_footer .sp_useful_link li {
+    margin-bottom: 20px;
+}
+
+section.sp_options_setup .guide_footer .sp_useful_link a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #2182E3;
+}
+
+section.sp_options_setup .guide_footer .sp_contact_us {
+    margin-top: 50px;
+}
+
+section.sp_options_setup .guide_footer .sp_contact_us p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #72777C;
+}
+
+section.sp_options_setup .guide_footer .sp_contact_us a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #2182E3;
+}
+
+
+/* ACCORDION */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.sp_accordion {
+    position: relative;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.sp_active, .sp_accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.sp_panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+}
+
+.sp_accordion:after {
+    content: '▼';
+    font-size: 18px;
+    color: #777;
+    position: absolute;
+    margin-top: -5px;
+    top: 0;
+    right: 30px;
+}
+
+.sp_active:after {
+    content: "▲";
+    position: absolute;
+    margin-top: -5px;
+    top: 0;
+    right: 30px;
+}
+
+.sp_link_disabled {
+    color: #666 !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+.sp_alert {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    color: rgba(104, 17, 17, 0.6);
+    font-weight: bold;
+}
